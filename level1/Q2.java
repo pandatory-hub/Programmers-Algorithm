@@ -29,7 +29,6 @@ class Q2 {
     }
 }
 
-
 //best answer//
 
 // class Solution {
