@@ -14,6 +14,7 @@ class Solution {
     }
 }
 
+
 // 아래는 프로그래머스에 제출한 답
 
 // class Result {
