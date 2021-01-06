@@ -20,5 +20,7 @@ class Q6 {
         Arrays.sort(answer);
         
         return answer;
+        
+        //return Arrays.stream(arr).filter(i -> i%divisor==0).toArray();
     }
 }
