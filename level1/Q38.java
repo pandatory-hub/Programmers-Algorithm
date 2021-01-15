@@ -6,9 +6,9 @@ class Q38 {
         
         for(int i=0; i<num.length; i++) {
             for(int j=i+1; j<num.length; j++) {
-                int c = num[i] + num[j];
-                if(list.indexOf(c) < 0)
-                    list.add(c);
+                int ans = num[i] + num[j];
+                if(list.indexOf(ans) < 0)
+                    list.add(ans);
             }
         }
         int[] answer = new int[list.size()];
