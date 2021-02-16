@@ -30,7 +30,7 @@ class Student {
 
 }
 
-public class Q1 {
+public class B1 {
     public static void main(String[] args) {
         Student st1 = new Student("홍길동", "1234");
         Student st2 = new Student("사오정", "2345");
