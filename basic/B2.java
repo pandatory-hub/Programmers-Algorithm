@@ -1,4 +1,4 @@
-public class Q2 {
+public class B2 {
     public static void main(String[] args) {
         int[] arr = new int[100];
 
@@ -11,6 +11,21 @@ public class Q2 {
 
         for(int i=1; i<=10; i++) {
             System.out.print(arr[i]+" ");
+        }
+
+        System.out.println();
+
+        int prevPrevNum = 1; //An-2
+        int prevNum = 1;     //An-1
+        System.out.print(prevPrevNum+" ");
+        System.out.print(prevNum+" ");
+
+        for(int i=3; i<=10; i++) {
+            int nNum = prevPrevNum + prevNum;
+            System.out.print(nNum+" ");
+
+            prevPrevNum = prevNum;
+            prevNum = nNum;
         }
     }    
 }
