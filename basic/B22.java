@@ -1,0 +1,14 @@
+public class B22 {
+    public static void main(String[] args) {
+        String s = "12321";
+        int len = s.length();
+        boolean flag = true;
+
+        for(int i=0; i<len/2; i++) {
+            if(s.charAt(i) != s.charAt(len-i-1)) {
+                flag = false;
+            }
+        }
+        System.out.print(flag);
+    }
+}
